@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "62F6536E-7D1E-4E70-8ACE-D5421D1F10F3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BEB59D71-7184-4592-8A9F-C5588A2694FC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mooskine/View Controllers/NoteDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "textViewDidEndEditing(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84A9A02D-F7B4-4085-8C17-84BBED8828A3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mooskine/View Controllers/NoteDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "textViewDidEndEditing(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23D941D2-BA70-4D74-90E0-2C9333F79442"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mooskine/View Controllers/NoteDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "NoteDetailsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "23D941D2-BA70-4D74-90E0-2C9333F79442 - 287c7f0674dc9c34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mooskine.NoteDetailsViewController.dataController.getter : Swift.Optional&lt;Mooskine.DataController&gt;"
+                  moduleName = "Mooskine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bozkurt/Documents/DEV/udacityPersistanceAndCoreData/Mooskine/Mooskine/View%20Controllers/NoteDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  uuid = "23D941D2-BA70-4D74-90E0-2C9333F79442 - f98fc0f4b2424408"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mooskine.NoteDetailsViewController.dataController.setter : Swift.Optional&lt;Mooskine.DataController&gt;"
+                  moduleName = "Mooskine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bozkurt/Documents/DEV/udacityPersistanceAndCoreData/Mooskine/Mooskine/View%20Controllers/NoteDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "23D941D2-BA70-4D74-90E0-2C9333F79442 - 4f90e0f7bdf37d91"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mooskine.NoteDetailsViewController.dataController.modify : Swift.Optional&lt;Mooskine.DataController&gt;"
+                  moduleName = "Mooskine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bozkurt/Documents/DEV/udacityPersistanceAndCoreData/Mooskine/Mooskine/View%20Controllers/NoteDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "23D941D2-BA70-4D74-90E0-2C9333F79442 - ce2a5570548b17d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mooskine.NoteDetailsViewController.dataController.modify : Swift.Optional&lt;Mooskine.DataController&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Mooskine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bozkurt/Documents/DEV/udacityPersistanceAndCoreData/Mooskine/Mooskine/View%20Controllers/NoteDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "23D941D2-BA70-4D74-90E0-2C9333F79442 - 2eca9d93472c1240"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mooskine.NoteDetailsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Mooskine.NoteDetailsViewController"
+                  moduleName = "Mooskine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bozkurt/Documents/DEV/udacityPersistanceAndCoreData/Mooskine/Mooskine/View%20Controllers/NoteDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "225">
+               </Location>
+               <Location
+                  uuid = "23D941D2-BA70-4D74-90E0-2C9333F79442 - c9b2e931d3d4db18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mooskine.NoteDetailsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Mooskine.NoteDetailsViewController&gt;"
+                  moduleName = "Mooskine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bozkurt/Documents/DEV/udacityPersistanceAndCoreData/Mooskine/Mooskine/View%20Controllers/NoteDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "182">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9028219D-ACCD-41A8-A4FF-FD6A5335B74D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mooskine/View Controllers/NotesListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18BB677F-8F52-4B76-BBEF-75F4340C64E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mooskine/View Controllers/NotebooksListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "addNotebook(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E1AAC20-BFE9-468E-BAD3-EB3FF30754FD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mooskine/View Controllers/NotebooksListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "deleteNotebook(at:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF5A60A9-5690-42B6-AF0C-5643B43431F5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mooskine/Model/Managed Object Extensions/Notebook+Extensions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "Notebook"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F562F4E0-7BBA-4B58-AD49-45210B56C857"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mooskine/Model/Managed Object Extensions/Note+Extensions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "Note"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1C8FD3AC-AAE2-45EB-AD84-D7A34EF33BE0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mooskine/Model/DataController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "DataController"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89A67D7D-B403-4598-8C70-3E3DA6980179"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mooskine/Model/DataController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "load(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38033AD5-A5FC-4CC9-A3D5-C83DB242F499"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mooskine/View Controllers/NotebooksListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B6EE66F-3831-49B5-8E58-DA5A9CBE5C60"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mooskine/View Controllers/NotebooksListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F45D054E-1B59-4605-928F-AFCFE53D5ABA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mooskine/View Controllers/NotesListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "NotesListViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F45D054E-1B59-4605-928F-AFCFE53D5ABA - 5382e60a714e114a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mooskine.NotesListViewController.dataController.getter : Swift.Optional&lt;Mooskine.DataController&gt;"
+                  moduleName = "Mooskine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bozkurt/Documents/DEV/udacityPersistanceAndCoreData/Mooskine/Mooskine/View%20Controllers/NotesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  uuid = "F45D054E-1B59-4605-928F-AFCFE53D5ABA - 6db62cebfc2d8952"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mooskine.NotesListViewController.dataController.setter : Swift.Optional&lt;Mooskine.DataController&gt;"
+                  moduleName = "Mooskine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bozkurt/Documents/DEV/udacityPersistanceAndCoreData/Mooskine/Mooskine/View%20Controllers/NotesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "F45D054E-1B59-4605-928F-AFCFE53D5ABA - c9fcfe3033ef29a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mooskine.NotesListViewController.dataController.modify : Swift.Optional&lt;Mooskine.DataController&gt;"
+                  moduleName = "Mooskine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bozkurt/Documents/DEV/udacityPersistanceAndCoreData/Mooskine/Mooskine/View%20Controllers/NotesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "F45D054E-1B59-4605-928F-AFCFE53D5ABA - bc28de2ff4191aca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mooskine.NotesListViewController.dataController.modify : Swift.Optional&lt;Mooskine.DataController&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Mooskine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bozkurt/Documents/DEV/udacityPersistanceAndCoreData/Mooskine/Mooskine/View%20Controllers/NotesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "F45D054E-1B59-4605-928F-AFCFE53D5ABA - d38c3193573d8a16"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mooskine.NotesListViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Mooskine.NotesListViewController"
+                  moduleName = "Mooskine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bozkurt/Documents/DEV/udacityPersistanceAndCoreData/Mooskine/Mooskine/View%20Controllers/NotesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "278">
+               </Location>
+               <Location
+                  uuid = "F45D054E-1B59-4605-928F-AFCFE53D5ABA - fb730a72c735c6fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mooskine.NotesListViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Mooskine.NotesListViewController&gt;"
+                  moduleName = "Mooskine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bozkurt/Documents/DEV/udacityPersistanceAndCoreData/Mooskine/Mooskine/View%20Controllers/NotesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "235">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2143012-9F66-4F34-8D15-7F8BA74B5F84"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mooskine/View Controllers/NotesListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "800BC644-AF83-4482-A032-A38E7A7A0A40"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mooskine/View Controllers/NotesListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E74C88E7-6539-4568-85E0-EFD05742213E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mooskine/View Controllers/NotesListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "addNote()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD627316-79AE-4037-B58E-19C65B83585C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mooskine/View Controllers/NotesListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "deleteNote(at:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
