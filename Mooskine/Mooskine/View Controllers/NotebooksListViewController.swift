@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-class NotebooksListViewController: UIViewController, UITableViewDataSource {
+class NotebooksListViewController: UIViewController, UITableViewDataSource, NSFetchedResultsControllerDelegate {
     /// A table view that displays a list of notebooks
     @IBOutlet weak var tableView: UITableView!
 
@@ -17,23 +17,31 @@ class NotebooksListViewController: UIViewController, UITableViewDataSource {
     
     var dataController:DataController!
 
+    var fetchedResultsController:NSFetchedResultsController<Notebook>! // ?
+    
+    fileprivate func setUpFetchedResultsController() {
+        //////////
+        let fetchRequest:NSFetchRequest<Notebook> = Notebook.fetchRequest()
+        let sortDescriptor = NSSortDescriptor(key: "creationDate", ascending: false)
+        fetchRequest.sortDescriptors = [sortDescriptor]
+        
+        fetchedResultsController = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: dataController.viewContext, sectionNameKeyPath: nil, cacheName: nil)
+        fetchedResultsController.delegate = self
+        do {
+            try fetchedResultsController.performFetch()
+        } catch {
+            fatalError("the fetch couldnt performed: \(error.localizedDescription)")
+        }
+        //////////
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.titleView = UIImageView(image: #imageLiteral(resourceName: "toolbar-cow"))
         navigationItem.rightBarButtonItem = editButtonItem
-        ///////
-        //let notebook:Notebook
-        //
-        let fetchRequest:NSFetchRequest<Notebook> = Notebook.fetchRequest()
-        let sortDescriptor = NSSortDescriptor(key: "creationDate", ascending: false)
-        fetchRequest.sortDescriptors = [sortDescriptor]
-        if let result = try? dataController.viewContext.fetch(fetchRequest){
-            notebooks = result
-            tableView.reloadData()
-        }
+        setUpFetchedResultsController()
+        reloadNotebooks()
         
-        updateEditButtonState()
-
         
     }
 
@@ -44,6 +52,11 @@ class NotebooksListViewController: UIViewController, UITableViewDataSource {
             tableView.deselectRow(at: indexPath, animated: false)
             tableView.reloadRows(at: [indexPath], with: .fade)
         }
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        fetchedResultsController = nil
     }
 
     // -------------------------------------------------------------------------
@@ -95,11 +108,28 @@ class NotebooksListViewController: UIViewController, UITableViewDataSource {
         notebook.creationDate = Date()
         try? dataController.viewContext.save()
         
-        notebooks.insert(notebook, at: 0)
+        //        notebooks.insert(notebook, at: 0)
+        //
+        //        tableView.insertRows(at: [IndexPath(row: 0, section: 0)], with: .fade)
+        //        updateEditButtonState()
+        reloadNotebooks()
+    }
+    
+    fileprivate func reloadNotebooks() {
+        ///////
+        //let notebook:Notebook
+        //
+        let fetchRequest:NSFetchRequest<Notebook> = Notebook.fetchRequest()
+        let sortDescriptor = NSSortDescriptor(key: "creationDate", ascending: false)
+        fetchRequest.sortDescriptors = [sortDescriptor]
+        if let result = try? dataController.viewContext.fetch(fetchRequest){
+            notebooks = result
+            tableView.reloadData()
+        }
         
-        tableView.insertRows(at: [IndexPath(row: 0, section: 0)], with: .fade)
         updateEditButtonState()
     }
+    
 
     /// Deletes the notebook at the specified index path
     func deleteNotebook(at indexPath: IndexPath) {
